@@ -26,8 +26,6 @@ export default function MapView() {
   const lng = currentLocation?.lng; // Default to London if location is not available
   const position = [lat, lng]; // Use the current location or default to London
 
-  if (!currentLocation) return <p>Loading...</p>;
-
   return (
     <MapContainer
       center={position}
@@ -42,10 +40,6 @@ export default function MapView() {
 
       {/* User Marker */}
       <Marker position={position}>
-        <Popup>Hey, Your location</Popup>
-      </Marker>
-
-      <Marker position={[43, -79]}>
         <Popup>Hey, Your location</Popup>
       </Marker>
 
