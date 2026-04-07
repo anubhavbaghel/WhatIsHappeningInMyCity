@@ -3,9 +3,9 @@ import CloseIconURI from "../assets/icons/close.svg";
 
 const SideBar = () => {
   return (
-    <div className="rounded-lg left-sidebar m-2 min-w-[25%]">
+    <div className="rounded-lg left-sidebar m-2 min-w-[25%] hidden sm:block">
       <div>
-        <h1 className="text-black text-2xl  p-2 rounded-lg">
+        <h1 className="text-black text-2xl  p-2 rounded-lg ">
           What is happening in my City?
         </h1>
       </div>
