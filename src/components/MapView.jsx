@@ -22,13 +22,14 @@ export default function MapView() {
 
   const currentLocation = useCurrentLocation();
 
-  const lat = currentLocation?.lat; // Default to London if location is not available
-  const lng = currentLocation?.lng; // Default to London if location is not available
+  const lat = currentLocation?.lat || 51.505; // Default to London if location is not available
+  const lng = currentLocation?.lng || -0.09; // Default to London if location is not available
   const position = [lat, lng]; // Use the current location or default to London
+
 
   return (
     <MapContainer
-      center={position}
+      center={position || [51.505, -0.09]} // Default to London if location is not available
       zoom={1}
       scrollWheelZoom={true}
       style={{ height: "100vh", width: "100%" }} // Height is required!
@@ -39,7 +40,7 @@ export default function MapView() {
       />
 
       {/* User Marker */}
-      <Marker position={position}>
+      <Marker position={position || [51.505, -0.09]}>
         <Popup>Hey, Your location</Popup>
       </Marker>
 
