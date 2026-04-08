@@ -15,7 +15,7 @@ const LocationButton = ({ currentLocation, setCurrentLocation }) => {
 
   return (
     <button
-      className="absolute p-3 bg-white border border-gray-300 rounded-full bottom-2 right-2 z-9999"
+      className={`absolute p-3 bg-white border border-gray-300 rounded-full z-9999 top-3 right-3 sm: [top-5 right-5]`}
       onClick={handleClick}
       disabled={!!currentLocation}
     >

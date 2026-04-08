@@ -1,6 +1,5 @@
-import React, { useEffect } from "react";
+const getAndSetCurrentLocation = ({ currentLocation, setCurrentLocation }) => { 
 
-const getAndSetCurrentLocation = ({ currentLocation, setCurrentLocation }) => {
   navigator.geolocation.getCurrentPosition(
     (position) => {
       setCurrentLocation({
