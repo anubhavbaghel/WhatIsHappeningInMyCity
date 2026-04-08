@@ -7,8 +7,8 @@ function App() {
   return (
     <>
       <div className={"flex flex-row"}>
-        <SideBar ></SideBar>
-        <MapView ></MapView>
+        <SideBar></SideBar>
+        <MapView></MapView>
       </div>
     </>
   );

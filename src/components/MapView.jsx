@@ -1,11 +1,12 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import useCurrentLocation from "../hooks/useCurrentLocation.js";
+import getCurrentLocation from "../hooks/getAndSetCurrentLocation.js";
 import { useEffect, useState } from "react";
 import L from "leaflet";
 
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
+import LocationButton from "./UI/LocationButton.jsx";
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -17,6 +18,7 @@ L.Icon.Default.mergeOptions({
 
 export default function MapView() {
   const [events, setEvents] = useState([]);
+  const [currentLocation, setCurrentLocation] = useState(null);
 
   useEffect(() => {
     const fetchEvents = async () => {
@@ -30,15 +32,13 @@ export default function MapView() {
 
     fetchEvents();
   }, []);
-
-  const currentLocation = useCurrentLocation();
-
+  
   const lat = currentLocation?.lat || 51.505; // Default to London if location is not available
   const lng = currentLocation?.lng || -0.09; // Default to London if location is not available
   const position = [lat, lng]; // Use the current location or default to London
 
   return (
-    <>
+    <div className="relative h-screen w-screen">
       {position ? (
         <MapContainer
           center={position}
@@ -46,7 +46,7 @@ export default function MapView() {
           minZoom={3}
           maxZoom={18}
           scrollWheelZoom={true}
-          style={{ height: "100vh", width: "100%" }} // Height is required!
+          className="h-full w-full"
           key={`${lat},${lng}`} // Add a key to force re-render when location changes
         >
           <TileLayer
@@ -83,7 +83,7 @@ export default function MapView() {
           minZoom={3}
           maxZoom={18}
           scrollWheelZoom={true}
-          style={{ height: "100vh", width: "100%" }} // Height is required!
+          className="h-full w-full"
           key={`${lat},${lng}`} // Add a key to force re-render when location changes
         >
           <TileLayer
@@ -114,6 +114,7 @@ export default function MapView() {
           ))}
         </MapContainer>
       )}
-    </>
+      <LocationButton currentLocation={currentLocation} setCurrentLocation={setCurrentLocation}></LocationButton>
+    </div>
   );
 }
