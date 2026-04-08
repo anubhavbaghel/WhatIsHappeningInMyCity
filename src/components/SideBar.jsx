@@ -1,14 +1,10 @@
 import MenuItems from "./MenuItems";
 import CloseIconURI from "../assets/icons/close.svg";
 
-const SideBar = () => {
+const SideBar = ({ isleftSidebarOpen }) => {
   return (
-    <div className="rounded-lg left-sidebar m-2 min-w-[25%] hidden sm:block">
-      <div>
-        <h1 className="text-black text-2xl  p-2 rounded-lg ">
-          What is happening in my City?
-        </h1>
-      </div>
+    <div className={`px-2 left-sidebar h-full w-1/3 ${isleftSidebarOpen ? "flex" : "hidden"} flex-col border border-black rounded-lg `}>
+      
       <MenuItems title="Markets & Shopping" />
       <MenuItems title="Music & Nightlife" />
       <MenuItems title="Arts & Culture" />

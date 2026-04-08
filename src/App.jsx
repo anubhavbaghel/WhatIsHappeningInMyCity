@@ -1,23 +1,25 @@
 import MapView from "./components/MapView.jsx";
 import "leaflet/dist/leaflet.css";
 import SideBar from "./components/SideBar.jsx";
-import { useState } from "react"; 
+import { useState } from "react";
+import InformationBar from "./components/InformationBar.jsx";
+import Header from "./components/Header.jsx";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [events, setEvents] = useState([]);
+  const [isEventSelected, setIsEventSelected] = useState(false);
+  const [selectedEvent, setSelectedEvent] = useState(null);
+  const [isleftSidebarOpen, setIsLeftSidebarOpen] = useState(true);
 
   return (
-    <>
-      <div className={"flex flex-row"}>
-        {(loading) && (
-          <div className="absolute top-0 w-full h-full flex items-center justify-center bg-white z-50">
-            <div className="text-black text-2xl">Loading...</div>
-          </div>
-        )}
-        <SideBar></SideBar>
-        <MapView loading={loading} setLoading={setLoading}></MapView>
+    <div className="flex flex-col h-screen w-screen">
+      <Header isleftSidebarOpen={isleftSidebarOpen} setIsLeftSidebarOpen={setIsLeftSidebarOpen}></Header>
+      <div className="flex flex-row h-full w-full p-1.5 gap-1.5">
+        <SideBar isleftSidebarOpen={isleftSidebarOpen}></SideBar>
+        <MapView events={events} setEvents={setEvents} isEventSelected={isEventSelected} setIsEventSelected={setIsEventSelected} selectedEvent={selectedEvent} setSelectedEvent={setSelectedEvent}></MapView>
+        <InformationBar events={events} isEventSelected={isEventSelected} setIsEventSelected={setIsEventSelected} selectedEvent={selectedEvent}></InformationBar>
       </div>
-    </>
+    </div>
   );
 }
 

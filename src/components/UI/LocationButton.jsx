@@ -24,9 +24,8 @@ const LocationButton = ({ currentLocation, setCurrentLocation }) => {
   };
 
   return (
-    <>
       <button
-        className={`absolute p-3 bg-white border border-gray-300 rounded-full z-9999 top-3 right-3 sm:top-5 sm:right-5 `}
+        className="absolute p-3 bg-white border border-gray-300 rounded-full z-9999 top-5 right-5 sm:top-5 sm:right-5"
         onClick={handleClick}
         disabled={!!currentLocation || loading}
       >
@@ -38,7 +37,6 @@ const LocationButton = ({ currentLocation, setCurrentLocation }) => {
           <img type="svg" src={locationEnabledIcon} alt="Location" />
         )}
       </button>
-    </>
   );
 };
 

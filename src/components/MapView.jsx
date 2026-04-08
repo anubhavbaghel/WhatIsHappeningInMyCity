@@ -17,15 +17,23 @@ L.Icon.Default.mergeOptions({
   shadowUrl: markerShadow,
 });
 
-export default function MapView() {
-  const [events, setEvents] = useState([]);
+export default function MapView({
+  events,
+  setEvents,
+  isEventSelected,
+  setIsEventSelected,
+  selectedEvent,
+  setSelectedEvent,
+}) {
   const [currentLocation, setCurrentLocation] = useState(null);
 
   useEffect(() => {
     const fetchNearbyEvents = async () => {
-
       if (!currentLocation) return; // If currentLocation is not set, do nothing
-      const data = await getNearbyEvents(currentLocation.lat, currentLocation.lng);
+      const data = await getNearbyEvents(
+        currentLocation.lat,
+        currentLocation.lng,
+      );
       setEvents(data.results || []);
 
       console.log("Data from getNearbyEvents:", data);
@@ -36,15 +44,35 @@ export default function MapView() {
     fetchNearbyEvents();
   }, [currentLocation]);
 
-  const lat = currentLocation?.lat; 
-  const lng = currentLocation?.lng; 
+  const handleMarkerClick = (event) => {
+
+    if (isEventSelected && selectedEvent?.place_id === event.place_id) {
+      setIsEventSelected(false);
+      setSelectedEvent(null);
+    }
+    // If when the marker is clicked, the event is already selected and we want to click on another event
+    if (isEventSelected) {
+      setSelectedEvent(event);
+      return;
+    }
+    //When a marker is clicked, we want to set the selected event in the state and also set isEventSelected to true so that we can show the event details in the information bar
+    if (!isEventSelected) {
+      setIsEventSelected(true);
+      setSelectedEvent(event);
+      return;
+    }
+
+  };
+
+  const lat = currentLocation?.lat;
+  const lng = currentLocation?.lng;
   const position = [lat, lng];
 
   return (
-    <div className="relative h-screen w-screen">
+    <div className="relative h-full w-full overflow-hidden border border-black rounded-lg">
       <MapContainer
         center={currentLocation ? position : [51.505, -0.09]}
-        zoom={10}
+        zoom={13}
         minZoom={3}
         maxZoom={18}
         scrollWheelZoom={true}
@@ -70,11 +98,20 @@ export default function MapView() {
               event.geometry.location.lat,
               event.geometry.location.lng,
             ]}
+            eventHandlers={{
+              click: () => handleMarkerClick(event),
+              mouseover: (e) => e.target.openPopup(),
+              mouseout: (e) => e.target.closePopup(),
+            }}
           >
             <Popup>
-              {event.name}
-              {event.vicinity}
-              
+              <div style={{ minWidth: "180px" }}>
+                <h3 style={{ margin: 0 }}>{event.name}</h3>
+                <p style={{ margin: "4px 0", fontSize: "12px" }}>
+                  {event.vicinity}
+                </p>
+                <p>⭐ {event.rating || "N/A"}</p>
+              </div>
             </Popup>
           </Marker>
         ))}
