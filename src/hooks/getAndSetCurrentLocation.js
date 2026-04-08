@@ -1,4 +1,5 @@
-const getAndSetCurrentLocation = ({ currentLocation, setCurrentLocation }) => { 
+const getAndSetCurrentLocation = ({ currentLocation, setCurrentLocation, setLoading }) => { 
+  setLoading(true);
 
   navigator.geolocation.getCurrentPosition(
     (position) => {
@@ -6,9 +7,11 @@ const getAndSetCurrentLocation = ({ currentLocation, setCurrentLocation }) => {
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       });
+      setLoading(false);
     },
     (error) => {
       console.error("Error getting location:", error);
+      setLoading(false);
     },
   );
 
