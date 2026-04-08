@@ -3,6 +3,7 @@ import getAndSetCurrentLocation from "../../hooks/getAndSetCurrentLocation.js";
 import locationDisabledIcon from "../../assets/icons/location_disabled.svg";
 import locationEnabledIcon from "../../assets/icons/location_enabled.svg";
 import { useState } from "react";
+import getNearbyEvents from "../../hooks/getNearbyEvents.js";
 const LocationButton = ({ currentLocation, setCurrentLocation }) => {
   const [loading, setLoading] = useState(false);
 
@@ -15,10 +16,10 @@ const LocationButton = ({ currentLocation, setCurrentLocation }) => {
 
     if (!currentLocation) {
       await getAndSetCurrentLocation({
-          currentLocation,
-          setCurrentLocation,
-          setLoading,
-        });
+        currentLocation,
+        setCurrentLocation,
+        setLoading,
+      });
     }
   };
 

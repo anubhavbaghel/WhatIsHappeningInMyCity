@@ -2,6 +2,7 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import getCurrentLocation from "../hooks/getAndSetCurrentLocation.js";
 import { useEffect, useState } from "react";
 import L from "leaflet";
+import getNearbyEvents from "../hooks/getNearbyEvents.js";
 
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
@@ -21,27 +22,29 @@ export default function MapView() {
   const [currentLocation, setCurrentLocation] = useState(null);
 
   useEffect(() => {
-    const fetchEvents = async () => {
-      const res = await fetch(
-        `https://app.ticketmaster.com/discovery/v2/events.json?apikey=${import.meta.env.VITE_TICKETMASTER_API_KEY}`,
-      );
-      const data = await res.json();
-      setEvents(data._embedded?.events || []);
+    const fetchNearbyEvents = async () => {
+
+      if (!currentLocation) return; // If currentLocation is not set, do nothing
+      const data = await getNearbyEvents(currentLocation.lat, currentLocation.lng);
+      setEvents(data.results || []);
+
+      console.log("Data from getNearbyEvents:", data);
+      console.log("Data from getNearbyEvents:", data.results);
       // console.log(data._embedded.events[0]._embedded.venues[0].location.latitude);
     };
 
-    fetchEvents();
-  }, []);
+    fetchNearbyEvents();
+  }, [currentLocation]);
 
-  const lat = currentLocation?.lat; // Default to London if location is not available
-  const lng = currentLocation?.lng; // Default to London if location is not available
-  const position = [lat, lng]; // Use the current location or default to London
+  const lat = currentLocation?.lat; 
+  const lng = currentLocation?.lng; 
+  const position = [lat, lng];
 
   return (
     <div className="relative h-screen w-screen">
       <MapContainer
         center={currentLocation ? position : [51.505, -0.09]}
-        zoom={6}
+        zoom={10}
         minZoom={3}
         maxZoom={18}
         scrollWheelZoom={true}
@@ -62,16 +65,16 @@ export default function MapView() {
         {/* now we want to run a map function on events and for each event we want to create a marker on the map with the event location and event name in the popup */}
         {events.map((event) => (
           <Marker
-            key={event.id}
+            key={event.place_id}
             position={[
-              event._embedded.venues[0].location.latitude,
-              event._embedded.venues[0].location.longitude,
+              event.geometry.location.lat,
+              event.geometry.location.lng,
             ]}
           >
             <Popup>
               {event.name}
-              <br />
-              {event.dates.start.localDate}
+              {event.vicinity}
+              
             </Popup>
           </Marker>
         ))}
