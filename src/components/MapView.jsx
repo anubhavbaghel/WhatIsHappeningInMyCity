@@ -3,11 +3,11 @@ import getCurrentLocation from "../hooks/getAndSetCurrentLocation.js";
 import { useEffect, useState } from "react";
 import L from "leaflet";
 import getNearbyEvents from "../hooks/getNearbyEvents.js";
-
+import delhi_events from "../data/delhi_events.json";
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png";
 import markerIcon from "leaflet/dist/images/marker-icon.png";
 import markerShadow from "leaflet/dist/images/marker-shadow.png";
-import LocationButton from "./UI/LocationButton.jsx";
+import LocationButton from "./Buttons/LocationButton.jsx";
 
 delete L.Icon.Default.prototype._getIconUrl;
 
@@ -26,6 +26,7 @@ export default function MapView({
   setSelectedEvent,
 }) {
   const [currentLocation, setCurrentLocation] = useState(null);
+  const delhiEvents = delhi_events.events;
 
   useEffect(() => {
     const fetchNearbyEvents = async () => {
@@ -46,7 +47,7 @@ export default function MapView({
 
   const handleMarkerClick = (event) => {
 
-    if (isEventSelected && selectedEvent?.place_id === event.place_id) {
+    if (isEventSelected && selectedEvent?.id === event.id) {
       setIsEventSelected(false);
       setSelectedEvent(null);
     }
@@ -59,6 +60,7 @@ export default function MapView({
     if (!isEventSelected) {
       setIsEventSelected(true);
       setSelectedEvent(event);
+      console.log("Selected Event:", event);
       return;
     }
 
@@ -71,8 +73,8 @@ export default function MapView({
   return (
     <div className="relative h-full w-full overflow-hidden border border-black rounded-lg">
       <MapContainer
-        center={currentLocation ? position : [51.505, -0.09]}
-        zoom={13}
+        center={currentLocation ? position : [28.5500, 77.2025]}
+        zoom={11}
         minZoom={3}
         maxZoom={18}
         scrollWheelZoom={true}
@@ -91,12 +93,12 @@ export default function MapView({
         )}
 
         {/* now we want to run a map function on events and for each event we want to create a marker on the map with the event location and event name in the popup */}
-        {events.map((event) => (
+        {delhiEvents.map((event) => (
           <Marker
-            key={event.place_id}
+            key={event.id}
             position={[
-              event.geometry.location.lat,
-              event.geometry.location.lng,
+              event.location.lat,
+              event.location.lng,
             ]}
             eventHandlers={{
               click: () => handleMarkerClick(event),
@@ -106,11 +108,7 @@ export default function MapView({
           >
             <Popup>
               <div style={{ minWidth: "180px" }}>
-                <h3 style={{ margin: 0 }}>{event.name}</h3>
-                <p style={{ margin: "4px 0", fontSize: "12px" }}>
-                  {event.vicinity}
-                </p>
-                <p>⭐ {event.rating || "N/A"}</p>
+                <h3 style={{ margin: 0 }}>{event.title}</h3>
               </div>
             </Popup>
           </Marker>

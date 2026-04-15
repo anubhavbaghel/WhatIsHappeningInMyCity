@@ -8,7 +8,7 @@ const MenuButton = ({ isleftSidebarOpen, setIsLeftSidebarOpen }) => {
 
   return (
       <button
-        className="p-1 bg-white border border-gray-300 rounded-full"
+        className="p-1 bg-white border border-gray-300 rounded-full  md: hidden"
         onClick={handleMenuClick}
       >
         <img type="svg" src={menuButton} alt="Menu" />

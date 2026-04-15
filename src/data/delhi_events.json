@@ -1,0 +1,874 @@
+{
+  "events": [
+    {
+      "id": "evt_001",
+      "title": "Feeding India Concert 2026 ft. Shakira",
+      "date": "2026-04-15T19:00:00",
+      "endDate": "2026-04-15T23:00:00",
+      "location": {
+        "name": "Jawaharlal Nehru Stadium",
+        "lat": 28.5921,
+        "lng": 77.2385
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "international artist", "charity"],
+      "description": "A once-in-a-lifetime explosion of global music featuring world-renowned artist Shakira. Part of the Feeding India initiative to fight hunger.",
+      "audience": "adults",
+      "highlights": [
+        "Shakira live performance",
+        "Feeding India charity initiative",
+        "Grand stage production"
+      ],
+      "image": "/events/shakira-concert.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/feeding-india-concert-2026-ft-shakira-delhi-eid22ruv40gupo"
+      },
+      "contactInfo": "support@feedingindia.org"
+    },
+    {
+      "id": "evt_002",
+      "title": "Anubhav Singh Bassi Live - Kis Ko Batana Mat",
+      "date": "2026-04-04T16:00:00",
+      "endDate": "2026-04-04T18:00:00",
+      "location": {
+        "name": "Pt Deen Dayal Upadhyay Auditorium",
+        "lat": 28.6692,
+        "lng": 77.4538
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "storytelling", "comedy"],
+      "description": "One of India's most loved stand-up comedians returns with his hit show Kis Ko Batana Mat. Known for his storytelling style and relatable life anecdotes.",
+      "audience": "adults",
+      "highlights": [
+        "Signature storytelling comedy",
+        "Relatable life anecdotes",
+        "Crowd work"
+      ],
+      "image": "/events/bassi-comedy.jpg",
+      "links": {
+        "tickets": "https://www.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_003",
+      "title": "Gaurav Gupta Live Comedy Show",
+      "date": "2026-04-04T19:00:00",
+      "endDate": "2026-04-04T21:00:00",
+      "location": {
+        "name": "Shah Auditorium",
+        "lat": 28.6692,
+        "lng": 77.2867
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "hindi comedy", "comedy"],
+      "description": "Known for his hilarious take on Indian middle-class life, Gaurav Gupta brings his signature humour to the stage. Expect sharp observations and relatable jokes.",
+      "audience": "adults",
+      "highlights": [
+        "Indian middle-class humor",
+        "Stand-up performance",
+        "Non-stop laughter"
+      ],
+      "image": "/events/gaurav-gupta.jpg",
+      "links": {
+        "tickets": "https://www.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_004",
+      "title": "R-Rated Lineup - Stand-up Comedy",
+      "date": "2026-04-04T21:30:00",
+      "endDate": "2026-04-04T23:30:00",
+      "location": {
+        "name": "Delhi Central Comedy Club",
+        "lat": 28.5667,
+        "lng": 77.2086
+      },
+      "price": {
+        "type": "paid",
+        "amount": 199,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "late night", "comedy"],
+      "description": "A late-night curated stand-up show featuring 6-8 of the funniest and most fearless comics bringing their boldest material. Raw, honest, and ridiculously funny comedy.",
+      "audience": "adults",
+      "highlights": [
+        "Unfiltered comedy",
+        "Rising and experienced comedians",
+        "Late-night show"
+      ],
+      "image": "/events/r-rated-comedy.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/r-rated-lineup-eid1u7v8qpe8rr"
+      },
+      "contactInfo": "info@delhicentralcomedy.in"
+    },
+    {
+      "id": "evt_005",
+      "title": "Nayaab Hoon Main - Spoken Word Poetry",
+      "date": "2026-04-04T18:00:00",
+      "endDate": "2026-04-04T20:00:00",
+      "location": {
+        "name": "Laughter Nation Comedy Club",
+        "lat": 28.5494,
+        "lng": 77.1901
+      },
+      "price": {
+        "type": "paid",
+        "amount": 299,
+        "currency": "INR"
+      },
+      "category": "arts",
+      "tags": ["poetry", "spoken word", "storytelling"],
+      "description": "A spoken word poetry and storytelling show blending Hindi and Punjabi poetry. A journey through love, longing, sleepless nights, and healing.",
+      "audience": "adults",
+      "highlights": [
+        "Hindi & Punjabi poetry",
+        "Emotional storytelling",
+        "Live performance"
+      ],
+      "image": "/events/nayaab-hoon.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/nayaab-hoon-main-eid1u7v8on35vj"
+      },
+      "contactInfo": "hello@laughternation.in"
+    },
+    {
+      "id": "evt_006",
+      "title": "Gaurav Kapoor Live",
+      "date": "2026-04-12T16:00:00",
+      "endDate": "2026-04-12T18:00:00",
+      "location": {
+        "name": "Kedarnath Sahni Auditorium",
+        "lat": 28.575,
+        "lng": 77.2833
+      },
+      "price": {
+        "type": "paid",
+        "amount": 800,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "observational", "comedy"],
+      "description": "One of India's most popular stand-up comedians with one of the most loyal comedy followings. Known for observational comedy and millennial urban details.",
+      "audience": "adults",
+      "highlights": [
+        "Observational comedy",
+        "Crowd work",
+        "Millennial urban humor"
+      ],
+      "image": "/events/gaurav-kapoor.jpg",
+      "links": {
+        "tickets": "https://www.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_007",
+      "title": "KAPOW! - Comic Rock Band Performance",
+      "date": "2026-04-12T18:30:00",
+      "endDate": "2026-04-12T21:00:00",
+      "location": {
+        "name": "The Piano Man Jazz Club",
+        "lat": 28.5535,
+        "lng": 77.2561
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1000,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["rock", "comedy", "live music"],
+      "description": "India's only comic rock band brings high-octane riffs and absurdist lyrics. A unique genre-defying musical experience.",
+      "audience": "all",
+      "highlights": [
+        "India's only comic rock band",
+        "Absurdist lyrics",
+        "High-energy performance"
+      ],
+      "image": "/events/kapow-rock.jpg",
+      "links": {
+        "tickets": "https://www.timeout.com/delhi/delhi-events-in-april"
+      },
+      "contactInfo": "contact@pianoman.in"
+    },
+    {
+      "id": "evt_008",
+      "title": "Rumi: Unveil The Sun - Theatre Production",
+      "date": "2026-04-04T19:30:00",
+      "endDate": "2026-04-04T21:30:00",
+      "location": {
+        "name": "NCUI Auditorium",
+        "lat": 28.5494,
+        "lng": 77.1901
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "theatre",
+      "tags": ["theatre", "poetry", "storytelling"],
+      "description": "Inspired by the works of legendary poet Rumi, this theatre production combines poetry, storytelling, and music.",
+      "audience": "all",
+      "highlights": [
+        "Rumi's poetry",
+        "Theatre performance",
+        "Storytelling and music"
+      ],
+      "image": "/events/rumi-theatre.jpg",
+      "links": {
+        "tickets": "https://www.kahajaun.com"
+      },
+      "contactInfo": "info@ncui.in"
+    },
+    {
+      "id": "evt_009",
+      "title": "Kanan Gill: Not This Again",
+      "date": "2026-04-18T17:00:00",
+      "endDate": "2026-04-18T19:30:00",
+      "location": {
+        "name": "NCUI Auditorium",
+        "lat": 28.5494,
+        "lng": 77.1901
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1099,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "sketch comedy", "comedy"],
+      "description": "The comic who broke through with Pretentious Movie Reviews returns with his new show. Performed over 1000 shows worldwide.",
+      "audience": "adults",
+      "highlights": [
+        "Razor-sharp wit",
+        "Over 1000 shows worldwide",
+        "New comedy special"
+      ],
+      "image": "/events/kanan-gill.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_010",
+      "title": "Shyam Rangeela Live - Stand-up Comedy",
+      "date": "2026-04-18T19:00:00",
+      "endDate": "2026-04-18T21:00:00",
+      "location": {
+        "name": "The Comedy Theatre Gurgaon",
+        "lat": 28.4707,
+        "lng": 77.0766
+      },
+      "price": {
+        "type": "paid",
+        "amount": 449,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "mimicry", "political satire"],
+      "description": "Popular Indian comedian and mimicry artist known for political satire. Features live Kalpanik press conference of PM.",
+      "audience": "adults",
+      "highlights": [
+        "Political satire",
+        "Mimicry performance",
+        "Interactive audience Q&A"
+      ],
+      "image": "/events/shyam-rangeela.jpg",
+      "links": {
+        "tickets": "https://allevents.in/new-delhi/shyam-rangeela-live-a-standup-comedy-show/3900029794224454"
+      },
+      "contactInfo": "info@comedytheatre.in"
+    },
+    {
+      "id": "evt_011",
+      "title": "Between The Audience and The Stage - Theatre Workshop",
+      "date": "2026-04-18T12:00:00",
+      "endDate": "2026-04-18T14:00:00",
+      "location": {
+        "name": "Soch Theatre Group",
+        "lat": 28.5921,
+        "lng": 77.2385
+      },
+      "price": {
+        "type": "paid",
+        "amount": 299,
+        "currency": "INR"
+      },
+      "category": "workshop",
+      "tags": ["theatre", "workshop", "learning"],
+      "description": "An orientation workshop for Theatre Appreciation Program. Take your first step into the world of theatre and performance.",
+      "audience": "all",
+      "highlights": [
+        "Theatre orientation",
+        "Practical workshop",
+        "Step towards Theatre Appreciation Program"
+      ],
+      "image": "/events/theatre-workshop.jpg",
+      "links": {
+        "tickets": "https://allevents.in/new-delhi/between-the-audience-and-the-stage/3900029903447826"
+      },
+      "contactInfo": "sochtheatregroup@theatre.in"
+    },
+    {
+      "id": "evt_012",
+      "title": "Relapse - Stand-up Comedy by Aakash Mehta",
+      "date": "2026-04-19T18:00:00",
+      "endDate": "2026-04-19T20:00:00",
+      "location": {
+        "name": "Hideout Comedy Club",
+        "lat": 28.5667,
+        "lng": 77.2086
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "live"],
+      "description": "Aakash Mehta returns to live touring with his show Relapse, marking his comeback after a brief semi-retirement.",
+      "audience": "adults",
+      "highlights": [
+        "Comeback show",
+        "Live touring",
+        "Stand-up performance"
+      ],
+      "image": "/events/aakash-mehta.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/relapse-a-stand-up-comedy-show-by-aakash-mehta-eid1u7v8oslbdx"
+      },
+      "contactInfo": "hello@hideoutcomedy.in"
+    },
+    {
+      "id": "evt_013",
+      "title": "The Indian Picturesque: Landscape Painting Exhibition",
+      "date": "2026-03-28T11:00:00",
+      "endDate": "2026-05-03T19:00:00",
+      "location": {
+        "name": "DAG",
+        "lat": 28.6139,
+        "lng": 77.23
+      },
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "exhibition",
+      "tags": ["art", "exhibition", "history"],
+      "description": "A slow walk through early 19th-century India as painted by both Indian and British artists. Features forts, landscapes, and architectural paintings.",
+      "audience": "all",
+      "highlights": [
+        "Early 19th century paintings",
+        "Indian and British artists",
+        "Free entry"
+      ],
+      "image": "/events/dag-exhibition.jpg",
+      "links": {
+        "tickets": "https://dagworld.com"
+      },
+      "contactInfo": "info@daggallery.in"
+    },
+    {
+      "id": "evt_014",
+      "title": "INTERSECTIONS: Sites of Becoming - Art Exhibition",
+      "date": "2026-04-01T11:00:00",
+      "endDate": "2026-04-30T19:00:00",
+      "location": {
+        "name": "Arthshila",
+        "lat": 28.5633,
+        "lng": 77.285
+      },
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "exhibition",
+      "tags": ["art", "contemporary", "exhibition"],
+      "description": "A month-long show marking 50 years of the Inlaks Shivdasani Foundation with work from five decades of artists. Includes panel talks, film screenings, and interactive workshops.",
+      "audience": "all",
+      "highlights": [
+        "50 years of Inlaks Shivdasani Foundation",
+        "Panel talks and film screenings",
+        "Interactive theatre workshops"
+      ],
+      "image": "/events/arthshila.jpg",
+      "links": {
+        "tickets": "https://arthshila.in"
+      },
+      "contactInfo": "info@arthshila.in"
+    },
+    {
+      "id": "evt_015",
+      "title": "Best in Standup ft. Various Artists",
+      "date": "2026-04-09T20:00:00",
+      "endDate": "2026-04-09T22:00:00",
+      "location": {
+        "name": "The Comedy Theatre - Hauz Khas Village",
+        "lat": 28.5494,
+        "lng": 77.1901
+      },
+      "price": {
+        "type": "paid",
+        "amount": 299,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "multiple artists"],
+      "description": "A curated stand-up comedy show featuring some of the best comics from all over India. Witness multiple top comedians in one show.",
+      "audience": "all",
+      "highlights": [
+        "Multiple top comedians",
+        "Curated lineup",
+        "Live stand-up"
+      ],
+      "image": "/events/best-standup.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/best-in-standup-ft-various-artists-eid1u7v8r0p7re"
+      },
+      "contactInfo": "info@comedytheatre.in"
+    },
+    {
+      "id": "evt_016",
+      "title": "Theatre Acting Workshop",
+      "date": "2026-04-04T12:00:00",
+      "endDate": "2026-04-05T17:00:00",
+      "location": {
+        "name": "Akshara Theatre",
+        "lat": 28.5921,
+        "lng": 77.245
+      },
+      "price": {
+        "type": "paid",
+        "amount": 999,
+        "currency": "INR"
+      },
+      "category": "workshop",
+      "tags": ["theatre", "acting", "workshop"],
+      "description": "An intensive weekend workshop for working professionals and freshers to enhance communication, confidence, and expressive abilities through theatre-based techniques.",
+      "audience": "all",
+      "highlights": [
+        "2-day intensive workshop",
+        "Theatre-based techniques",
+        "No prior experience required"
+      ],
+      "image": "/events/akshara-workshop.jpg",
+      "links": {
+        "tickets": "https://stayhappening.com/e/theatre-acting-workshop-E1EGVL89SUU5"
+      },
+      "contactInfo": "8979545490"
+    },
+    {
+      "id": "evt_017",
+      "title": "Its Funny to Me - Stand-up Comedy by Urooj Ashfaq",
+      "date": "2026-04-25T18:00:00",
+      "endDate": "2026-04-25T19:30:00",
+      "location": {
+        "name": "Ghalib Auditorium",
+        "lat": 28.5928,
+        "lng": 77.2391
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "hindi english"],
+      "description": "Relatable comedian Urooj Ashfaq returns with her edgiest show yet. Determined to change her reputation with bad words and risky premises.",
+      "audience": "adults",
+      "highlights": [
+        "Edgy comedy",
+        "Hindi and English",
+        "1100+ interested attendees"
+      ],
+      "image": "/events/urooj-ashfaq.jpg",
+      "links": {
+        "tickets": "https://allevents.in/new-delhi/its-funny-to-me-standup-comedy-by-urooj-ashfaq/3900029814032051"
+      },
+      "contactInfo": "info@ghalibauditorium.in"
+    },
+    {
+      "id": "evt_018",
+      "title": "Mastery Film Festival",
+      "date": "2026-04-05T10:00:00",
+      "endDate": "2026-04-06T22:00:00",
+      "location": {
+        "name": "Delhi NCR",
+        "lat": 28.5667,
+        "lng": 77.2086
+      },
+      "price": {
+        "type": "paid",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "festival",
+      "tags": ["film", "cinema", "filmmaking"],
+      "description": "A niche festival for cinema enthusiasts and aspiring filmmakers featuring curated film screenings, interactive workshops, and sessions with industry experts.",
+      "audience": "all",
+      "highlights": [
+        "Film screenings",
+        "Industry expert sessions",
+        "Networking opportunities"
+      ],
+      "image": "/events/film-festival.jpg",
+      "links": {
+        "tickets": "https://www.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_019",
+      "title": "Lodhi Reads - Community Reading Session",
+      "date": "2026-04-04T16:30:00",
+      "endDate": "2026-04-04T19:30:00",
+      "location": {
+        "name": "Lodhi Garden",
+        "lat": 28.5886,
+        "lng": 77.2291
+      },
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "community",
+      "tags": ["reading", "community", "outdoor"],
+      "description": "A reading community that meets every weekend to read in peace together. Bring a mat and snacks. Not a book club, just peaceful reading.",
+      "audience": "all",
+      "highlights": [
+        "Free community event",
+        "Outdoor reading",
+        "No obligations"
+      ],
+      "image": "/events/lodhi-reads.jpg",
+      "links": {
+        "tickets": "https://lbb.in/delhi/events-in-delhi/"
+      },
+      "contactInfo": "N/A"
+    },
+    {
+      "id": "evt_020",
+      "title": "Sooshi Mango",
+      "date": "2026-05-08T14:30:00",
+      "endDate": "2026-05-08T17:00:00",
+      "location": {
+        "name": "Indira Gandhi National Centre for the Arts",
+        "lat": 28.6102,
+        "lng": 77.2245
+      },
+      "price": {
+        "type": "paid",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "arts",
+      "tags": ["performance", "arts", "cultural"],
+      "description": "Experience the magic of Sooshi Mango at the iconic Indira Gandhi National Centre for the Arts. A curated entertainment experience.",
+      "audience": "family",
+      "highlights": [
+        "Live performance",
+        "Iconic venue",
+        "Curated entertainment"
+      ],
+      "image": "/events/sooshi-mango.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/sooshi-mango-eid1invsmnvc3v"
+      },
+      "contactInfo": "info@ignca.nic.in"
+    },
+    {
+      "id": "evt_021",
+      "title": "Tabla Poetry Live",
+      "date": "2026-05-09T19:30:00",
+      "endDate": "2026-05-09T21:00:00",
+      "location": {
+        "name": "Ghalib Auditorium",
+        "lat": 28.5928,
+        "lng": 77.2391
+      },
+      "price": {
+        "type": "paid",
+        "amount": 399,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["tabla", "poetry", "fusion"],
+      "description": "Where poetry meets pulse, and expression becomes an experience. Poetry meets Tabla in this unique cultural evening.",
+      "audience": "adults",
+      "highlights": [
+        "Poetry and Tabla fusion",
+        "1.5 hours duration",
+        "Hindi language performance"
+      ],
+      "image": "/events/tabla-poetry.jpg",
+      "links": {
+        "tickets": "https://allevents.in/new-delhi/tabla-poetry-live/3900029908299902"
+      },
+      "contactInfo": "info@ghalibauditorium.in"
+    },
+    {
+      "id": "evt_022",
+      "title": "Ultimate Roast by Nishant Tanwar",
+      "date": "2026-05-03T20:00:00",
+      "endDate": "2026-05-03T22:00:00",
+      "location": {
+        "name": "The Comedy Theatre - Hauz Khas Village",
+        "lat": 28.5494,
+        "lng": 77.1901
+      },
+      "price": {
+        "type": "paid",
+        "amount": 599,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "roast", "interactive"],
+      "description": "An interactive comedy experience where brave audience members step into the spotlight and get hilariously roasted. No script, no mercy, pure fun.",
+      "audience": "adults",
+      "highlights": [
+        "Interactive audience roasting",
+        "Nishant Tanwar performance",
+        "Unfiltered comedy"
+      ],
+      "image": "/events/ultimate-roast.jpg",
+      "links": {
+        "tickets": "https://stayhappening.com/e/ultimate-roast-by-nishant-tanwar-E1EGVL8QY186"
+      },
+      "contactInfo": "info@comedytheatre.in"
+    },
+    {
+      "id": "evt_023",
+      "title": "Candlelight: Tribute to Mohammed Rafi",
+      "date": "2026-05-16T20:30:00",
+      "endDate": "2026-05-16T22:00:00",
+      "location": {
+        "name": "Le Méridien New Delhi",
+        "lat": 28.6318,
+        "lng": 77.2197
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1499,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["candlelight", "tribute", "retro"],
+      "description": "A magical candlelight tribute to the legendary singer Mohammed Rafi. Experience timeless classics in an enchanting atmosphere.",
+      "audience": "couples",
+      "highlights": [
+        "Tribute to Mohammed Rafi",
+        "Candlelight atmosphere",
+        "Classic Bollywood songs"
+      ],
+      "image": "/events/raffi-candlelight.jpg",
+      "links": {
+        "tickets": "https://concerts50.com/show/candlelight-tribute-to-mohammed-rafi-in-new-delhi-tickets-may-16-2026"
+      },
+      "contactInfo": "info@concerts50.com"
+    },
+    {
+      "id": "evt_024",
+      "title": "Candlelight: Tribute to A.R. Rahman",
+      "date": "2026-05-16T18:00:00",
+      "endDate": "2026-05-16T19:30:00",
+      "location": {
+        "name": "Le Méridien New Delhi",
+        "lat": 28.6318,
+        "lng": 77.2197
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1499,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["candlelight", "tribute", "instrumental"],
+      "description": "A magical candlelight tribute to the music legend A.R. Rahman. Experience his iconic compositions in an enchanting candlelit setting.",
+      "audience": "family",
+      "highlights": [
+        "Tribute to A.R. Rahman",
+        "Iconic compositions",
+        "Candlelight experience"
+      ],
+      "image": "/events/rahman-candlelight.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_025",
+      "title": "Rhythms of Rafi",
+      "date": "2026-05-30T17:30:00",
+      "endDate": "2026-05-30T19:30:00",
+      "location": {
+        "name": "Shri Ram Centre for Performing Arts",
+        "lat": 28.6283,
+        "lng": 77.2357
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1099,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["tribute", "retro", "bollywood"],
+      "description": "A heartfelt and soulful tribute to the legendary singer Mohammed Rafi, whose timeless voice has defined generations.",
+      "audience": "family",
+      "highlights": [
+        "Tribute to Mohammed Rafi",
+        "JK Musicals presentation",
+        "Shri Ram Centre venue"
+      ],
+      "image": "/events/rhythms-of-rafi.jpg",
+      "links": {
+        "tickets": "https://stayhappening.com/e/rhythms-of-rafi-E1EGVL72ML6O"
+      },
+      "contactInfo": "info@shriramcentre.in"
+    },
+    {
+      "id": "evt_026",
+      "title": "Black Coffee - Live in Delhi NCR",
+      "date": "2026-04-05T18:00:00",
+      "endDate": "2026-04-05T23:00:00",
+      "location": {
+        "name": "A DOT by GNH",
+        "lat": 28.4595,
+        "lng": 77.0266
+      },
+      "price": {
+        "type": "paid",
+        "amount": 2500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["dj", "electronic", "house music"],
+      "description": "The world-renowned DJ Black Coffee brings his signature deep and house music to Delhi NCR. For those who know electronic music, he's the GOAT.",
+      "audience": "adults",
+      "highlights": [
+        "World-renowned DJ",
+        "Deep and house music",
+        "Premium venue experience"
+      ],
+      "image": "/events/black-coffee.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_027",
+      "title": "Calvin Harris - Live in Delhi NCR",
+      "date": "2026-04-19T19:00:00",
+      "endDate": "2026-04-19T23:00:00",
+      "location": {
+        "name": "Delhi NCR",
+        "lat": 28.5667,
+        "lng": 77.2086
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4000,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["dj", "edm", "electronic"],
+      "description": "The global superstar DJ Calvin Harris performs live in Delhi. Born in Scotland, he's one of the world's highest-paid DJs.",
+      "audience": "adults",
+      "highlights": [
+        "Global superstar DJ",
+        "Hit songs performance",
+        "Live electronic music"
+      ],
+      "image": "/events/calvin-harris.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com"
+    },
+    {
+      "id": "evt_028",
+      "title": "Radhika Das - India Tour 2026",
+      "date": "2026-04-05T18:00:00",
+      "endDate": "2026-04-05T20:00:00",
+      "location": {
+        "name": "A DOT by GNH",
+        "lat": 28.4595,
+        "lng": 77.0266
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1499,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["bhajan", "devotional", "kirtan"],
+      "description": "Experience the magic of bhajan concerts with Radhika Das. A unique devotional music experience combining traditional kirtans with contemporary beats.",
+      "audience": "family",
+      "highlights": [
+        "Radhika Das performance",
+        "Devotional music",
+        "Kirtan concert"
+      ],
+      "image": "/events/radhika-das.jpg",
+      "links": {
+        "tickets": "https://lbb.in/delhi/events-in-delhi/"
+      },
+      "contactInfo": "info@adot.in"
+    },
+    {
+      "id": "evt_029",
+      "title": "IFAT Delhi 2026 - Environmental Technology Fair",
+      "date": "2026-04-22T10:00:00",
+      "endDate": "2026-04-24T18:00:00",
+      "location": {
+        "name": "Bharat Mandapam",
+        "lat": 28.5618,
+        "lng": 77.1633
+      },
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "exhibition",
+      "tags": ["environment", "technology", "trade fair"],
+      "description": "North India's Trade Fair for Water, Sewage, Solid Waste and Recycling. A catalyst for innovation, collaboration, and industry growth.",
+      "audience": "professionals",
+      "highlights": [
+        "Water and waste management",
+        "Environmental technology",
+        "Trade fair"
+      ],
+      "image": "/events/ifat-delhi.jpg",
+      "links": {
+        "tickets": "https://ifat-delhi.com/"
+      },
+      "contactInfo": "info@ifat-delhi.com"
+    }
+  ]
+}
