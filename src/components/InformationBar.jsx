@@ -1,5 +1,9 @@
 const InformationBar = ({ isEventSelected, selectedEvent }) => {
-  if (!isEventSelected) return null;
+  if (!isEventSelected) return (
+    <div className="flex flex-col h-full w-full md:w-1/3 bg-white p-4 overflow-y-auto border border-black rounded-lg items-center justify-center">
+      <h1 className="text-2xl">Select an event to see details</h1>
+    </div>
+  );
 
   return (
     <div className="flex flex-col h-full w-full md:w-1/3 bg-white p-4 overflow-y-auto border border-black rounded-lg">
