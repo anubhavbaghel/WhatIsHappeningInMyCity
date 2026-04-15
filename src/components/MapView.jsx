@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import getCurrentLocation from "../hooks/getAndSetCurrentLocation.js";
 import { useEffect, useState } from "react";
 import L from "leaflet";
@@ -28,24 +28,25 @@ export default function MapView({
   const [currentLocation, setCurrentLocation] = useState(null);
   const delhiEvents = delhi_events.events;
 
-  useEffect(() => {
-    const fetchNearbyEvents = async () => {
-      if (!currentLocation) return; // If currentLocation is not set, do nothing
-      const data = await getNearbyEvents(
-        currentLocation.lat,
-        currentLocation.lng,
-      );
-      setEvents(data.results || []);
+  // useEffect(() => {
+  //   const fetchNearbyEvents = async () => {
+  //     if (!currentLocation) return; // If currentLocation is not set, do nothing
+  //     const data = await getNearbyEvents(
+  //       currentLocation.lat,
+  //       currentLocation.lng,
+  //     );
+  //     setEvents(data.results || []);
 
-      console.log("Data from getNearbyEvents:", data);
-      console.log("Data from getNearbyEvents:", data.results);
-      // console.log(data._embedded.events[0]._embedded.venues[0].location.latitude);
-    };
+  //     console.log("Data from getNearbyEvents:", data);
+  //     console.log("Data from getNearbyEvents:", data.results);
+  //     // console.log(data._embedded.events[0]._embedded.venues[0].location.latitude);
+  //   };
 
-    fetchNearbyEvents();
-  }, [currentLocation]);
+  //   fetchNearbyEvents();
+  // }, [currentLocation]);
 
   const handleMarkerClick = (event) => {
+    console.log("handleMarkerClick:", event);
 
     if (isEventSelected && selectedEvent?.id === event.id) {
       setIsEventSelected(false);
@@ -66,6 +67,62 @@ export default function MapView({
 
   };
 
+  function MapController({ selectedEvent, currentLocation, events, delhiEvents }) {
+    /**
+     * MapController
+     * - Runs inside the MapContainer so `useMap()` returns the Leaflet map instance.
+     * - Watches `selectedEvent` and `currentLocation` and recenters/zooms the map accordingly.
+     *
+     * Behavior:
+     * 1. If `selectedEvent` is provided, resolve its coordinates and fly to it (zoom level 14).
+     * 2. Otherwise, if `currentLocation` exists, fly to the user's location (zoom level 13).
+     * 3. If neither is available, fly to the default Delhi view (zoom level 3).
+     *
+     * The `resolveEvent` helper attempts to handle different shapes for `selectedEvent`:
+     * - an object containing a `location` with `lat`/`lng`
+     * - an object with top-level `lat`/`lng`
+     * - an ID (string/number) that can be matched against known event lists
+     */
+    const map = useMap();
+
+    useEffect(() => {
+      if (!map) return; // map not ready yet
+
+      // Try to normalize/resolve the passed `selectedEvent` into a full event object
+      // const resolveEvent = (sel) => {
+      //   if (!sel) return null;
+      //   // already has a location
+      //   if (sel.location && (sel.location.lat || sel.location.lng)) return sel;
+      //   // try matching by id against known lists
+      //   const id = sel.id ?? sel;
+      //   let found = delhiEvents.find((e) => String(e.id) === String(id));
+      //   if (!found && events && events.length) found = events.find((e) => String(e.id) === String(id));
+      //   return found || sel;
+      // };
+
+      // const evt = resolveEvent(selectedEvent);
+
+      // If we have a selected event with coordinates, fly there with a closer zoom
+      if (selectedEvent) {
+        const sLat = selectedEvent.location?.lat ?? selectedEvent.lat;
+        const sLng = selectedEvent.location?.lng ?? selectedEvent.lng;
+        if (sLat && sLng) map.flyTo([sLat, sLng], 11, { duration: 1.0 });
+        return;
+      }
+
+      // If no selected event, but we know the user's current location, fly there
+      if (currentLocation) {
+        map.flyTo([currentLocation.lat, currentLocation.lng], 11, { duration: 1.0 });
+        return;
+      }
+
+      // Fallback: show default city view
+      map.flyTo([28.6139, 77.209], 11, { duration: 1.0 });
+    }, [selectedEvent, currentLocation, events, delhiEvents, map]);
+
+    return null;
+  }
+
   const lat = currentLocation?.lat;
   const lng = currentLocation?.lng;
   const position = [lat, lng];
@@ -73,18 +130,19 @@ export default function MapView({
   return (
     <div className="relative h-full w-full overflow-hidden border border-black rounded-lg">
       <MapContainer
-        center={currentLocation ? position : [28.5500, 77.2025]}
+        center={[28.6139, 77.209]} // Default to Delhi if location is not available
         zoom={11}
         minZoom={3}
         maxZoom={18}
         scrollWheelZoom={true}
         className="h-full w-full"
-        key={`${lat},${lng}`} // Add a key to force re-render when location changes
+        // removed key to avoid remounting the map instance on location changes
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
         />
+        <MapController selectedEvent={selectedEvent} currentLocation={currentLocation} events={events} delhiEvents={delhiEvents} />
         {/* User Marker when location*/}
         {currentLocation && (
           <Marker position={[currentLocation.lat, currentLocation.lng]}>

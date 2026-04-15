@@ -2,7 +2,7 @@ const InformationBar = ({ isEventSelected, selectedEvent }) => {
   if (!isEventSelected) return null;
 
   return (
-    <div className="flex flex-col h-full w-1/3 bg-white p-4 overflow-y-auto border border-black rounded-lg">
+    <div className="flex flex-col h-full w-full md:w-1/3 bg-white p-4 overflow-y-auto border border-black rounded-lg">
       <h1 className="text-2xl">{selectedEvent?.title}</h1>
       <h2>
         {selectedEvent?.tags?.length > 0 ? (
@@ -16,7 +16,7 @@ const InformationBar = ({ isEventSelected, selectedEvent }) => {
           ))) : ("")}
       </h2>
       <p className="mt-2">{selectedEvent?.description}</p>
-      <p>
+      <div>
         Highlights:{" "}
         {selectedEvent?.highlights?.length > 0 ? (
           <ul className="list-disc pl-5">
@@ -27,7 +27,7 @@ const InformationBar = ({ isEventSelected, selectedEvent }) => {
         ) : (
           "N/A"
         )}
-      </p>
+      </div>
       <p className="mt-2">Location: {selectedEvent?.location?.name}</p>
       <p className="mt-2">
         Date:{" "}
