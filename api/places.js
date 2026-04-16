@@ -1,5 +1,5 @@
 export default async function handler(req, res) {
-  const { lat, lng } = req.query;
+  const { lat, lng, category } = req.query;
   const apiKey = process.env.GOOGLE_MAPS_API_KEY;
 
   try {

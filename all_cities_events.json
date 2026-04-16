@@ -1,0 +1,922 @@
+{
+  "events": [
+    {
+      "id": "del_001",
+      "title": "Feeding India Concert 2026 ft. Shakira",
+      "date": "2026-04-15T19:00:00",
+      "endDate": "2026-04-15T23:00:00",
+      "location": {
+        "name": "Jawaharlal Nehru Stadium",
+        "lat": 28.5921,
+        "lng": 77.2385
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "international artist", "charity"],
+      "description": "A once-in-a-lifetime explosion of global music featuring world-renowned artist Shakira. Part of the Feeding India initiative to fight hunger.",
+      "audience": "adults",
+      "highlights": ["Shakira live performance", "Feeding India charity initiative", "Grand stage production"],
+      "image": "/events/shakira-concert.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com/event/feeding-india-concert-2026-ft-shakira-delhi-eid22ruv40gupo"
+      },
+      "contactInfo": "support@feedingindia.org",
+      "city": "Delhi"
+    },
+    {
+      "id": "del_002",
+      "title": "Anubhav Singh Bassi Live - Kis Ko Batana Mat",
+      "date": "2026-04-04T16:00:00",
+      "endDate": "2026-04-04T18:00:00",
+      "location": {
+        "name": "Pt Deen Dayal Upadhyay Auditorium",
+        "lat": 28.6692,
+        "lng": 77.4538
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "storytelling", "comedy"],
+      "description": "One of India's most loved stand-up comedians returns with his hit show Kis Ko Batana Mat.",
+      "audience": "adults",
+      "highlights": ["Signature storytelling comedy", "Relatable life anecdotes", "Crowd work"],
+      "image": "/events/bassi-comedy.jpg",
+      "links": {
+        "tickets": "https://www.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Delhi"
+    },
+    {
+      "id": "del_003",
+      "title": "Calvin Harris - Live in Delhi NCR",
+      "date": "2026-04-19T19:00:00",
+      "endDate": "2026-04-19T23:00:00",
+      "location": {
+        "name": "Delhi NCR",
+        "lat": 28.5667,
+        "lng": 77.2086
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4000,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["dj", "edm", "electronic"],
+      "description": "The global superstar DJ Calvin Harris performs live in Delhi. One of the world's highest-paid DJs.",
+      "audience": "adults",
+      "highlights": ["Global superstar DJ", "Hit songs performance", "Live electronic music"],
+      "image": "/events/calvin-harris.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Delhi"
+    },
+    {
+      "id": "del_004",
+      "title": "Candlelight: Tribute to Mohammed Rafi",
+      "date": "2026-05-16T20:30:00",
+      "endDate": "2026-05-16T22:00:00",
+      "location": {
+        "name": "Le Méridien New Delhi",
+        "lat": 28.6318,
+        "lng": 77.2197
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1499,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["candlelight", "tribute", "retro"],
+      "description": "A magical candlelight tribute to the legendary singer Mohammed Rafi.",
+      "audience": "couples",
+      "highlights": ["Tribute to Mohammed Rafi", "Candlelight atmosphere", "Classic Bollywood songs"],
+      "image": "/events/raffi-candlelight.jpg",
+      "links": {
+        "tickets": "https://concerts50.com"
+      },
+      "contactInfo": "info@concerts50.com",
+      "city": "Delhi"
+    },
+    {
+      "id": "del_005",
+      "title": "Kanan Gill: Not This Again",
+      "date": "2026-04-18T17:00:00",
+      "endDate": "2026-04-18T19:30:00",
+      "location": {
+        "name": "NCUI Auditorium",
+        "lat": 28.5494,
+        "lng": 77.1901
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1099,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "sketch comedy", "comedy"],
+      "description": "The comic who broke through with Pretentious Movie Reviews returns with his new show.",
+      "audience": "adults",
+      "highlights": ["Razor-sharp wit", "Over 1000 shows worldwide", "New comedy special"],
+      "image": "/events/kanan-gill.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Delhi"
+    },
+    {
+      "id": "del_006",
+      "title": "IFAT Delhi 2026 - Environmental Technology Fair",
+      "date": "2026-04-22T10:00:00",
+      "endDate": "2026-04-24T18:00:00",
+      "location": {
+        "name": "Bharat Mandapam",
+        "lat": 28.5618,
+        "lng": 77.1633
+      },
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "exhibition",
+      "tags": ["environment", "technology", "trade fair"],
+      "description": "North India's Trade Fair for Water, Sewage, Solid Waste and Recycling.",
+      "audience": "professionals",
+      "highlights": ["Water and waste management", "Environmental technology", "Trade fair"],
+      "image": "/events/ifat-delhi.jpg",
+      "links": {
+        "tickets": "https://ifat-delhi.com/"
+      },
+      "contactInfo": "info@ifat-delhi.com",
+      "city": "Delhi"
+    },
+    {
+      "id": "del_007",
+      "title": "The Indian Picturesque: Landscape Painting Exhibition",
+      "date": "2026-03-28T11:00:00",
+      "endDate": "2026-05-03T19:00:00",
+      "location": {
+        "name": "DAG",
+        "lat": 28.6139,
+        "lng": 77.23
+      },
+      "price": {
+        "type": "free",
+        "amount": 0,
+        "currency": "INR"
+      },
+      "category": "exhibition",
+      "tags": ["art", "exhibition", "history"],
+      "description": "A slow walk through early 19th-century India as painted by both Indian and British artists.",
+      "audience": "all",
+      "highlights": ["Early 19th century paintings", "Indian and British artists", "Free entry"],
+      "image": "/events/dag-exhibition.jpg",
+      "links": {
+        "tickets": "https://dagworld.com"
+      },
+      "contactInfo": "info@daggallery.in",
+      "city": "Delhi"
+    },
+    {
+      "id": "mum_001",
+      "title": "The Comedy Land - Mumbai Comedy Festival",
+      "date": "2026-04-25T17:00:00",
+      "endDate": "2026-04-25T22:30:00",
+      "location": {
+        "name": "Dome SVP Stadium",
+        "lat": 19.0011,
+        "lng": 72.8198
+      },
+      "price": {
+        "type": "paid",
+        "amount": 750,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["comedy", "festival", "standup"],
+      "description": "Mumbai's first all-headliners comedy festival, featuring India's top comics in a nonstop weekend of performances.",
+      "audience": "adults",
+      "highlights": ["India's top comics", "Multiple headliners", "Non-stop laughter"],
+      "image": "/events/comedy-land.jpg",
+      "links": {
+        "tickets": "https://www.livefiesta.com"
+      },
+      "contactInfo": "info@livefiesta.com",
+      "city": "Mumbai"
+    },
+    {
+      "id": "mum_002",
+      "title": "Calvin Harris - Live in Mumbai",
+      "date": "2026-04-18T16:00:00",
+      "endDate": "2026-04-18T23:00:00",
+      "location": {
+        "name": "Infinity Bay",
+        "lat": 19.076,
+        "lng": 72.8777
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4000,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["dj", "edm", "electronic"],
+      "description": "Global superstar DJ Calvin Harris makes his India debut with a large-scale live set.",
+      "audience": "adults",
+      "highlights": ["Global superstar DJ", "Festival visuals", "Chart-topping tracks"],
+      "image": "/events/calvin-harris-mum.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Mumbai"
+    },
+    {
+      "id": "mum_003",
+      "title": "Udit Narayan Live in Mumbai",
+      "date": "2026-04-26T19:00:00",
+      "endDate": "2026-04-26T21:00:00",
+      "location": {
+        "name": "Shanmukhananda Hall",
+        "lat": 19.0469,
+        "lng": 72.8206
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "bollywood", "retro"],
+      "description": "Catch legendary singer Udit Narayan live at Shanmukhananda Hall.",
+      "audience": "family",
+      "highlights": ["Udit Narayan live performance", "Bollywood classics", "Grand stage"],
+      "image": "/events/udit-narayan.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@shanmukhananda.org",
+      "city": "Mumbai"
+    },
+    {
+      "id": "mum_004",
+      "title": "Two Mic Stand - Live Standup Comedy",
+      "date": "2026-04-16T20:00:00",
+      "endDate": "2026-04-16T22:00:00",
+      "location": {
+        "name": "The J Spot, Juhu",
+        "lat": 19.0967,
+        "lng": 72.8422
+      },
+      "price": {
+        "type": "paid",
+        "amount": 299,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "live"],
+      "description": "Two Mic Stand ft. Sumaira Shaikh & Aditi Mittal brings two of India's sharpest comic voices.",
+      "audience": "adults",
+      "highlights": ["Sumaira Shaikh", "Aditi Mittal", "Live standup"],
+      "image": "/events/two-mic-stand.jpg",
+      "links": {
+        "tickets": "https://allevents.in"
+      },
+      "contactInfo": "info@jspot.in",
+      "city": "Mumbai"
+    },
+    {
+      "id": "mum_005",
+      "title": "Alt Week - Mumbai Comedy Festival",
+      "date": "2026-04-13T10:00:00",
+      "endDate": "2026-04-19T23:00:00",
+      "location": {
+        "name": "Khar Comedy Club",
+        "lat": 19.0713,
+        "lng": 72.8388
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["comedy", "festival", "improv"],
+      "description": "Mumbai's homegrown alternative comedy festival featuring experimental formats and improv shows.",
+      "audience": "adults",
+      "highlights": ["Sumit Sourav founder", "Experimental comedy", "Improv shows"],
+      "image": "/events/alt-week.jpg",
+      "links": {
+        "tickets": "https://in.bookmyshow.com"
+      },
+      "contactInfo": "info@kharcomedyclub.in",
+      "city": "Mumbai"
+    },
+    {
+      "id": "mum_006",
+      "title": "Scorpions Coming Home Live 2026",
+      "date": "2026-04-30T17:00:00",
+      "endDate": "2026-04-30T22:00:00",
+      "location": {
+        "name": "Jio World Garden, BKC",
+        "lat": 19.0589,
+        "lng": 72.8659
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["rock", "concert", "legendary"],
+      "description": "The legendary German rock band Scorpions performs live in Mumbai.",
+      "audience": "all",
+      "highlights": ["Scorpions live", "Rock classics", "Grand production"],
+      "image": "/events/scorpions.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@jhoworldgarden.in",
+      "city": "Mumbai"
+    },
+    {
+      "id": "mum_007",
+      "title": "International Jazz Day",
+      "date": "2026-04-30T19:00:00",
+      "endDate": "2026-04-30T22:00:00",
+      "location": {
+        "name": "Tata Theatre, NCPA",
+        "lat": 18.9448,
+        "lng": 72.8233
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["jazz", "live music", "international"],
+      "description": "Celebrate International Jazz Day with Alemay Fernandez and global jazz artists.",
+      "audience": "all",
+      "highlights": ["Alemay Fernandez", "International Jazz Day", "Live jazz"],
+      "image": "/events/jazz-day.jpg",
+      "links": {
+        "tickets": "https://ncpa.org"
+      },
+      "contactInfo": "info@ncpa.org",
+      "city": "Mumbai"
+    },
+    {
+      "id": "blr_001",
+      "title": "Calvin Harris - Live in Bengaluru",
+      "date": "2026-04-17T16:00:00",
+      "endDate": "2026-04-17T23:00:00",
+      "location": {
+        "name": "NICE Grounds",
+        "lat": 13.0356,
+        "lng": 77.5969
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4000,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["dj", "edm", "electronic"],
+      "description": "Global superstar DJ Calvin Harris brings his India tour to Bengaluru.",
+      "audience": "adults",
+      "highlights": ["Calvin Harris", "Festival visuals", "Chart-topping tracks"],
+      "image": "/events/calvin-harris-blr.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "blr_002",
+      "title": "Kanan Gill Live",
+      "date": "2026-04-25T16:00:00",
+      "endDate": "2026-04-25T18:00:00",
+      "location": {
+        "name": "Good Shepherd Auditorium",
+        "lat": 12.9355,
+        "lng": 77.6103
+      },
+      "price": {
+        "type": "paid",
+        "amount": 999,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "live"],
+      "description": "Kanan Gill brings his razor-sharp wit and comedy to Bengaluru.",
+      "audience": "adults",
+      "highlights": ["Kanan Gill live", "Comedy performance", "Razor-sharp wit"],
+      "image": "/events/kanan-gill-blr.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "blr_003",
+      "title": "Tempo Tantrums - Kenny Sebastian",
+      "date": "2026-04-25T16:30:00",
+      "endDate": "2026-04-25T18:30:00",
+      "location": {
+        "name": "MLR Convention Centre, Whitefield",
+        "lat": 12.9698,
+        "lng": 77.7499
+      },
+      "price": {
+        "type": "paid",
+        "amount": 999,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "music"],
+      "description": "Kenny Sebastian blends razor-sharp comedy with playful music in this unique live experience.",
+      "audience": "adults",
+      "highlights": ["Kenny Sebastian", "Comedy + Music", "Live performance"],
+      "image": "/events/kenny-sebastian.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@mlrconvention.in",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "blr_004",
+      "title": "Relapse - Stand-up Comedy by Aakash Mehta",
+      "date": "2026-04-25T19:30:00",
+      "endDate": "2026-04-25T21:30:00",
+      "location": {
+        "name": "The Comedy Theatre, Indiranagar",
+        "lat": 12.9784,
+        "lng": 77.6408
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "live"],
+      "description": "Aakash Mehta returns to live touring with his show Relapse, marking his comeback.",
+      "audience": "adults",
+      "highlights": ["Aakash Mehta", "Comeback show", "Live standup"],
+      "image": "/events/aakash-mehta-blr.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@comedytheatre.in",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "blr_005",
+      "title": "Rasanubhava Dance Festival 2026",
+      "date": "2026-04-25T17:00:00",
+      "endDate": "2026-04-25T21:00:00",
+      "location": {
+        "name": "Chowdiah Memorial Hall",
+        "lat": 12.9755,
+        "lng": 77.5971
+      },
+      "price": {
+        "type": "paid",
+        "amount": 500,
+        "currency": "INR"
+      },
+      "category": "dance",
+      "tags": ["dance", "festival", "classical"],
+      "description": "A mesmerizing dance festival showcasing various dance forms.",
+      "audience": "all",
+      "highlights": ["Classical dance", "Contemporary forms", "Live performances"],
+      "image": "/events/rasanubhava.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@chowdiahraghall.in",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "blr_006",
+      "title": "Scorpions Coming Home Live 2026 - Bengaluru",
+      "date": "2026-04-26T17:00:00",
+      "endDate": "2026-04-26T22:00:00",
+      "location": {
+        "name": "NICE Grounds",
+        "lat": 13.0356,
+        "lng": 77.5969
+      },
+      "price": {
+        "type": "paid",
+        "amount": 4000,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["rock", "concert", "legendary"],
+      "description": "The legendary German rock band Scorpions performs live in Bengaluru.",
+      "audience": "all",
+      "highlights": ["Scorpions live", "Rock classics", "Grand production"],
+      "image": "/events/scorpions-blr.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@nicegrounds.in",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "blr_007",
+      "title": "Bengaluru Art Weekend",
+      "date": "2026-03-28T11:00:00",
+      "endDate": "2026-04-05T20:00:00",
+      "location": {
+        "name": "WeWork Galaxy and Sabha Blr",
+        "lat": 12.9755,
+        "lng": 77.6067
+      },
+      "price": {
+        "type": "paid",
+        "amount": 500,
+        "currency": "INR"
+      },
+      "category": "exhibition",
+      "tags": ["art", "exhibition", "contemporary"],
+      "description": "A city-wide programme of exhibitions, talks, and performances across multiple venues.",
+      "audience": "all",
+      "highlights": ["Multiple exhibitions", "Performances", "Art talks"],
+      "image": "/events/art-weekend.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@sabhablr.in",
+      "city": "Bengaluru"
+    },
+    {
+      "id": "hyd_001",
+      "title": "Hyderabad Dance Festival 2026",
+      "date": "2026-04-18T10:00:00",
+      "endDate": "2026-04-26T22:00:00",
+      "location": {
+        "name": "Multiple Venues",
+        "lat": 17.385,
+        "lng": 78.4867
+      },
+      "price": {
+        "type": "paid",
+        "amount": 300,
+        "currency": "INR"
+      },
+      "category": "dance",
+      "tags": ["dance", "festival", "classical"],
+      "description": "A nine-day, multi-venue celebration bringing together artists across classical and contemporary dance forms.",
+      "audience": "all",
+      "highlights": ["Classical dance", "Contemporary forms", "Workshops"],
+      "image": "/events/hyd-dance-fest.jpg",
+      "links": {
+        "tickets": "https://telanganatoday.com"
+      },
+      "contactInfo": "info@hyddancefest.in",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "hyd_002",
+      "title": "Harris Jayaraj Live in Concert",
+      "date": "2026-04-26T13:30:00",
+      "endDate": "2026-04-26T16:30:00",
+      "location": {
+        "name": "Boulder Hills",
+        "lat": 17.4435,
+        "lng": 78.4409
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1700,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "music director", "tamil"],
+      "description": "The legendary music director Harris Jayaraj brings his debut Telugu musical show to Hyderabad.",
+      "audience": "all",
+      "highlights": ["Harris Jayaraj", "Telugu classics", "Live orchestra"],
+      "image": "/events/harris-jayaraj.jpg",
+      "links": {
+        "tickets": "https://stayhappening.com"
+      },
+      "contactInfo": "info@boulderhills.in",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "hyd_003",
+      "title": "Tempo Tantrums - Kenny Sebastian",
+      "date": "2026-05-03T19:30:00",
+      "endDate": "2026-05-03T21:30:00",
+      "location": {
+        "name": "Shilpakala Vedika",
+        "lat": 17.4484,
+        "lng": 78.4613
+      },
+      "price": {
+        "type": "paid",
+        "amount": 999,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "music"],
+      "description": "Kenny Sebastian blends razor-sharp comedy with playful music in this unique live experience.",
+      "audience": "adults",
+      "highlights": ["Kenny Sebastian", "Comedy + Music", "Live performance"],
+      "image": "/events/kenny-sebastian-hyd.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@shilpakalavedika.in",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "hyd_004",
+      "title": "World Jazz Festival - Hyderabad",
+      "date": "2026-04-25T19:00:00",
+      "endDate": "2026-04-25T22:00:00",
+      "location": {
+        "name": "Shilpakala Vedika",
+        "lat": 17.4484,
+        "lng": 78.4613
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["jazz", "live music", "festival"],
+      "description": "The World Jazz Festival continues its multi-city India tour with a Hyderabad stop.",
+      "audience": "all",
+      "highlights": ["International jazz artists", "Live jazz", "Multi-city tour"],
+      "image": "/events/jazz-hyd.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@shilpakalavedika.in",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "hyd_005",
+      "title": "Kanan Gill Live",
+      "date": "2026-04-12T20:00:00",
+      "endDate": "2026-04-12T22:00:00",
+      "location": {
+        "name": "Shilpakala Vedika",
+        "lat": 17.4484,
+        "lng": 78.4613
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1099,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "live"],
+      "description": "Kanan Gill brings his razor-sharp wit to Hyderabad.",
+      "audience": "adults",
+      "highlights": ["Kanan Gill", "Comedy special", "Live performance"],
+      "image": "/events/kanan-gill-hyd.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "hyd_006",
+      "title": "Bhuwin Experience - Noor-e-daastaan",
+      "date": "2026-04-19T19:00:00",
+      "endDate": "2026-04-19T22:00:00",
+      "location": {
+        "name": "Shilpakala Vedika",
+        "lat": 17.4484,
+        "lng": 78.4613
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "sufi", "fusion"],
+      "description": "A musical experience where music isn't just heard—it's felt.",
+      "audience": "all",
+      "highlights": ["Sufi music", "Live orchestra", "Immersive experience"],
+      "image": "/events/bhuwin-experience.jpg",
+      "links": {
+        "tickets": "https://stayhappening.com"
+      },
+      "contactInfo": "info@shilpakalavedika.in",
+      "city": "Hyderabad"
+    },
+    {
+      "id": "pun_001",
+      "title": "Pune Comedy Festival 2026",
+      "date": "2026-04-04T16:00:00",
+      "endDate": "2026-04-05T16:00:00",
+      "location": {
+        "name": "Mayfield Eva Garden",
+        "lat": 18.5362,
+        "lng": 73.9357
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1599,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["comedy", "festival", "standup"],
+      "description": "Pune's biggest comedy festival featuring 40+ top Indian comedians over two days.",
+      "audience": "adults",
+      "highlights": ["40+ comics", "Biswa Kalyan Rath", "Kanan Gill", "Kenny Sebastian"],
+      "image": "/events/pune-comedy-fest.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@mayfieldevagarden.in",
+      "city": "Pune"
+    },
+    {
+      "id": "pun_002",
+      "title": "Yo Yo Honey Singh - My Story India Chapter",
+      "date": "2026-04-04T19:00:00",
+      "endDate": "2026-04-04T22:00:00",
+      "location": {
+        "name": "Mahalaxmi Lawns, Karvenagar",
+        "lat": 18.5071,
+        "lng": 73.8076
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1799,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "hip-hop", "bollywood"],
+      "description": "Hip-hop superstar Yo Yo Honey Singh brings his My Story tour to Pune.",
+      "audience": "adults",
+      "highlights": ["Yo Yo Honey Singh", "Hit songs", "High-energy performance"],
+      "image": "/events/honey-singh.jpg",
+      "links": {
+        "tickets": "https://happeningnext.com"
+      },
+      "contactInfo": "info@mahalaxmilawns.in",
+      "city": "Pune"
+    },
+    {
+      "id": "pun_003",
+      "title": "Armaan Malik Live in Pune",
+      "date": "2026-04-11T18:00:00",
+      "endDate": "2026-04-11T22:00:00",
+      "location": {
+        "name": "Mayfield Eva Garden",
+        "lat": 18.5362,
+        "lng": 73.9357
+      },
+      "price": {
+        "type": "paid",
+        "amount": 699,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "pop", "bollywood"],
+      "description": "Armaan Malik brings his smooth vocals and chart-topping Bollywood hits to Pune.",
+      "audience": "all",
+      "highlights": ["Armaan Malik live", "Bollywood hits", "Romantic ballads"],
+      "image": "/events/amaan-malik.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Pune"
+    },
+    {
+      "id": "pun_004",
+      "title": "Lucky Ali Live - Relive the Magic",
+      "date": "2026-04-18T18:00:00",
+      "endDate": "2026-04-18T22:00:00",
+      "location": {
+        "name": "Mayfield Eva Garden",
+        "lat": 18.5362,
+        "lng": 73.9357
+      },
+      "price": {
+        "type": "paid",
+        "amount": 999,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "indie", "retro"],
+      "description": "Lucky Ali brings his indie classics like O Sanam and Safarnama to Pune.",
+      "audience": "all",
+      "highlights": ["Lucky Ali", "Classic hits", "Indie nostalgia"],
+      "image": "/events/lucky-ali.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@bookmyshow.com",
+      "city": "Pune"
+    },
+    {
+      "id": "pun_005",
+      "title": "Sonu Nigam Live - Tribute to Mohammed Rafi",
+      "date": "2026-04-25T18:00:00",
+      "endDate": "2026-04-25T22:00:00",
+      "location": {
+        "name": "Pethkar Grounds, Kothrud",
+        "lat": 18.5073,
+        "lng": 73.7859
+      },
+      "price": {
+        "type": "paid",
+        "amount": 1500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["concert", "tribute", "retro"],
+      "description": "A magical evening celebrating Mohammed Rafi's timeless songs by Sonu Nigam.",
+      "audience": "family",
+      "highlights": ["Sonu Nigam", "Mohammed Rafi tribute", "Bollywood classics"],
+      "image": "/events/sonu-nigam.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@pethkargrounds.in",
+      "city": "Pune"
+    },
+    {
+      "id": "pun_006",
+      "title": "Relapse - Stand-up Comedy by Aakash Mehta",
+      "date": "2026-04-11T19:00:00",
+      "endDate": "2026-04-11T21:00:00",
+      "location": {
+        "name": "Backspace: Pune",
+        "lat": 18.5204,
+        "lng": 73.8567
+      },
+      "price": {
+        "type": "paid",
+        "amount": 499,
+        "currency": "INR"
+      },
+      "category": "comedy",
+      "tags": ["standup", "comedy", "live"],
+      "description": "Aakash Mehta returns to live touring with his show Relapse.",
+      "audience": "adults",
+      "highlights": ["Aakash Mehta", "Comeback show", "Live standup"],
+      "image": "/events/aakash-mehta-pun.jpg",
+      "links": {
+        "tickets": "https://concerts.consequence.net"
+      },
+      "contactInfo": "info@backspace.in",
+      "city": "Pune"
+    },
+    {
+      "id": "pun_007",
+      "title": "The Sarod Quintet by Sakal",
+      "date": "2026-04-04T19:00:00",
+      "endDate": "2026-04-04T22:00:00",
+      "location": {
+        "name": "Pandit Farms",
+        "lat": 18.5512,
+        "lng": 73.9012
+      },
+      "price": {
+        "type": "paid",
+        "amount": 500,
+        "currency": "INR"
+      },
+      "category": "music",
+      "tags": ["classical", "indian classical", "sarod"],
+      "description": "A refined evening of Indian classical music featuring sarod ensemble.",
+      "audience": "all",
+      "highlights": ["Sarod Quintet", "Hindustani classical", "Sakal ensemble"],
+      "image": "/events/sarod-quintet.jpg",
+      "links": {
+        "tickets": "https://bookmyshow.com"
+      },
+      "contactInfo": "info@panditfarms.in",
+      "city": "Pune"
+    }
+  ]
+}

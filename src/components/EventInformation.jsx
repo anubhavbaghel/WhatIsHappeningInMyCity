@@ -1,4 +1,4 @@
-const InformationBar = ({ isEventSelected, selectedEvent }) => {
+const EventInformation = ({ isEventSelected, selectedEvent }) => {
   if (!isEventSelected) return (
     <div className="flex flex-col h-full w-full md:w-1/3 bg-white p-4 overflow-y-auto border border-black rounded-lg items-center justify-center">
       <h1 className="text-2xl">Select an event to see details</h1>
@@ -6,7 +6,7 @@ const InformationBar = ({ isEventSelected, selectedEvent }) => {
   );
 
   return (
-    <div className="flex flex-col h-full w-full md:w-1/3 bg-white p-4 overflow-y-auto border border-black rounded-lg">
+    <div className="flex flex-col h-full w-full bg-white p-4 overflow-y-auto border border-black rounded-lg">
       <h1 className="text-2xl">{selectedEvent?.title}</h1>
       <h2>
         {selectedEvent?.tags?.length > 0 ? (
@@ -85,4 +85,4 @@ const InformationBar = ({ isEventSelected, selectedEvent }) => {
   );
 };
 
-export default InformationBar;
+export default EventInformation;
